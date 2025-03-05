@@ -1,0 +1,111 @@
+CREATE TABLE public."action" (
+	action_id serial4 NOT NULL,
+	action_title int4 NOT NULL,
+	action_date_start date NOT NULL,
+	action_spisok int4 NOT NULL,
+	action_winner int4 NULL,
+	CONSTRAINT action_pk PRIMARY KEY (action_id)
+);
+CREATE TABLE Activities (
+    id serial PRIMARY KEY NOT NULL,
+    name_event int REFERENCES public.events(events_id) NOT NULL,
+    start_date date NOT NULL,
+    countdays int NOT NULL,
+    activity varchar NOT NULL,
+    activityday int NOT NULL,
+    starttime time NOT NULL,
+    moderator int REFERENCES public.moderators(moderator_id) NOT NULL,
+    expert1 int REFERENCES public.jury(jury_id),
+    expert2 int REFERENCES public.jury(jury_id),
+    expert3 int REFERENCES public.jury(jury_id),
+    expert4 int REFERENCES public.jury(jury_id),
+    expert5 int REFERENCES public.jury(jury_id),
+    winner int REFERENCES public.users(users_id)
+);
+
+CREATE TABLE public.country (
+	country_id serial4 NOT NULL,
+	country_name varchar NOT NULL,
+	country_en_name varchar NOT NULL,
+	country_kod varchar NOT NULL,
+	country_kod2 int4 NOT NULL,
+	CONSTRAINT country_pk PRIMARY KEY (country_id)
+);
+
+CREATE TABLE public.direction_type (
+	direction_id serial4 NOT NULL,
+	direction_title varchar NOT NULL,
+	CONSTRAINT direction_type_pk PRIMARY KEY (direction_id)
+);
+
+CREATE TABLE public.events (
+    events_id int4 NOT NULL,
+    events_name varchar(255) NOT NULL,
+    CONSTRAINT events_pk PRIMARY KEY (events_id)
+);
+
+
+CREATE TABLE public.gender (
+	gender_id serial4 NOT NULL,
+	gender_title varchar NOT NULL,
+	CONSTRAINT gender_pk PRIMARY KEY (gender_id)
+);
+
+
+CREATE TABLE public.roles (
+	role_id serial4 NOT NULL,
+	role_name varchar NOT NULL,
+	CONSTRAINT roles_pk PRIMARY KEY (role_id)
+);
+
+CREATE TABLE public.logined (
+	logined_id serial4 NOT NULL,
+	logined_password varchar NOT NULL,
+	logined_role int4 NOT NULL,
+	CONSTRAINT logined_pk PRIMARY KEY (logined_id),
+	CONSTRAINT logined_roles_fk FOREIGN KEY (logined_role) REFERENCES public.roles(role_id)
+);
+
+CREATE TABLE public.meropriyatiye (
+	meropriyatiye_id serial4 NOT NULL,
+	meropriyatiye_event int4 NOT NULL,
+	meropriyatiye_name varchar NOT NULL,
+	meropriyatiye_date date NOT NULL,
+	meropriyatiye_days int4 NOT NULL,
+	meropriyatiye_city int4 NOT NULL,
+	CONSTRAINT meropriyatiye_pk PRIMARY KEY (meropriyatiye_id),
+	CONSTRAINT meropriyatiye_events_fk FOREIGN KEY (meropriyatiye_event) REFERENCES public.events(events_id)
+);
+
+CREATE TABLE public.users (
+	users_id serial4 NOT NULL,
+	users_fio varchar NOT NULL,
+	users_gender int4 NOT NULL,
+	users_email varchar NOT NULL,
+	users_birthday date NOT NULL,
+	users_country int4 NOT NULL,
+	users_phone varchar NOT NULL,
+	users_image varchar NOT NULL,
+	CONSTRAINT users_pk PRIMARY KEY (users_id),
+	CONSTRAINT users_country_fk FOREIGN KEY (users_country) REFERENCES public.country(country_id),
+	CONSTRAINT users_gender_fk FOREIGN KEY (users_gender) REFERENCES public.gender(gender_id),
+	CONSTRAINT users_logined_fk FOREIGN KEY (users_id) REFERENCES public.logined(logined_id)
+);
+
+CREATE TABLE public.jury (
+	jury_id serial4 NOT NULL,
+	jury_direction int4 NOT NULL,
+	CONSTRAINT jury_pk PRIMARY KEY (jury_id),
+	CONSTRAINT jury_direction_type_fk FOREIGN KEY (jury_direction) REFERENCES public.direction_type(direction_id),
+	CONSTRAINT jury_users_fk FOREIGN KEY (jury_id) REFERENCES public.users(users_id)
+);
+
+CREATE TABLE public.moderators (
+	moderator_id serial4 NOT NULL,
+	moderator_events int4 NOT NULL,
+	moderator_direction int4 NOT NULL,
+	CONSTRAINT moderators_pk PRIMARY KEY (moderator_id),
+	CONSTRAINT moderators_direction_type_fk FOREIGN KEY (moderator_direction) REFERENCES public.direction_type(direction_id),
+	CONSTRAINT moderators_events_fk FOREIGN KEY (moderator_events) REFERENCES public.events(events_id),
+	CONSTRAINT moderators_users_fk FOREIGN KEY (moderator_id) REFERENCES public.users(users_id)
+);

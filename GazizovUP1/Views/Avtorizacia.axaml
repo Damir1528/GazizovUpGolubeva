@@ -1,0 +1,29 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:GazizovUP1.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GazizovUP1.Avtorizacia"
+			 x:DataType="vm:AvtorizaciaViewModel">
+
+	<Grid>
+		<StackPanel>
+			<TextBlock Text="Добрый день, начнем работу!" TextAlignment="Center" Margin="12" FontSize="20"/>
+			<TextBlock Text="Авторизация" TextAlignment="Center" Padding="0,80,0,0"
+					   Margin="12" FontSize="16"/>
+			<TextBox Watermark="Введите логин" Text="{Binding Login}" Margin="12,0,0,0" Padding="5,5,0,0"
+					 FontSize="14" Width="200" Height="1" HorizontalAlignment="Center"
+					 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="1"/>
+			<TextBox PasswordChar="*" Watermark="Введите пароль" Text="{Binding Parol}" Margin="12,10,0,0" Padding="5,5,0,0"
+					 FontSize="14" Width="200" Height="1" HorizontalAlignment="Center"
+					 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="1"/>
+			<Button Content="Авторизоваться" Margin="12,10,0,0" Padding="40,5,5,0" FontSize="14"
+					Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2" Width="200"
+					Height="30" HorizontalAlignment="Center" Command="{Binding AuthorizeCommand}" IsDefault="True"/>
+		</StackPanel>
+
+	</Grid>
+
+	
+</UserControl>
