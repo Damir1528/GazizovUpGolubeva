@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GazizovUP1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fb49e30761a5d50c84d438cfa856862c0dd93f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GazizovUP1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GazizovUP1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

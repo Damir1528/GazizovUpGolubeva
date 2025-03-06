@@ -44,5 +44,7 @@ namespace GazizovUP1
                 BindingPlugins.DataValidators.Remove(plugin);
             }
         }
+
+
     }
 }

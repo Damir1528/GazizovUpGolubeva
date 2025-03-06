@@ -15,35 +15,39 @@
 				<!--Поиск-->
 				<StackPanel>
 					<TextBox Watermark="Введите наименование мероприятия" Text="{Binding SearchMeropriyatiye}"
-							 BorderThickness="2" Background="#FEA9AB" BorderBrush="#FEA9AB" Height="50"
+							 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2" Height="50"
 							 VerticalAlignment="Top" Margin="10,20,0,0"/>
 				</StackPanel>
 				<!--Сортировка-->
-				<Button Command="" Background="#EAD14D" BorderBrush="#FEA9AB"
+				<Button Command="" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"
 						Margin="20,0,0,0" >Добавить мероприятие</Button>
 				<StackPanel Margin="20,0,0,0">
 					<RadioButton Content="Все" IsChecked="{Binding All}"/>
-					<RadioButton Content="2022 год" IsChecked="{Binding Kg}"/>
-					<RadioButton Content="2023 год" IsChecked="{Binding Metr}"/>
-					<RadioButton Content="2024 год" IsChecked="{Binding Litr}"/>
+					<RadioButton Content="2022 год" IsChecked="{Binding Kg}" />
+					<RadioButton Content="2023 год" IsChecked="{Binding Metr}" />
+					<RadioButton Content="2024 год" IsChecked="{Binding Litr}" />
 				</StackPanel>
 				<!--По логину с алфавитом-->
-				<ComboBox SelectedIndex="{Binding SelectedSort}"  Margin="20,30,0,0" BorderThickness="2"
-						  Background="#EAD14D" BorderBrush="#FEA9AB">
-					<ComboBoxItem Background="#E6E6FA">Без сортировки</ComboBoxItem>
-					<ComboBoxItem Background="#E6E6FA">По мероприятию</ComboBoxItem>
+				<ComboBox SelectedIndex="{Binding SelectedSort}"  Margin="20,30,0,0" 
+						  Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2">
+					<ComboBoxItem Background="#E6E6FA" BorderBrush="#9370DB" 
+								  BorderThickness="2">Без сортировки</ComboBoxItem>
+					<ComboBoxItem Background="#E6E6FA" BorderBrush="#9370DB" 
+								  BorderThickness="2">По мероприятию</ComboBoxItem>
 				</ComboBox>
 				<StackPanel IsVisible="{Binding IsVisibleSort}"  Margin="20,0,0,0" >
-					<RadioButton Content="По возрастанию" IsChecked="{Binding SortUp}"/>
-					<RadioButton Content="По убыванию" IsChecked="{Binding SortDown}"/>
+					<RadioButton Content="По возрастанию" IsChecked="{Binding SortUp}" 
+								 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+					<RadioButton Content="По убыванию" IsChecked="{Binding SortDown}" 
+								 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
 				</StackPanel>
 				<!--Галочка-->
-				<CheckBox IsChecked="{Binding Photo}" Margin="20,0,0,0">Присутствует картинка</CheckBox>
-				<CheckBox IsChecked="{Binding UnPhoto}" Margin="20,0,0,0">Отсутсвует картинка</CheckBox>
+				<CheckBox IsChecked="{Binding Photo}" Margin="20,0,0,0" >Присутствует картинка</CheckBox>
+				<CheckBox IsChecked="{Binding UnPhoto}" Margin="20,0,0,0" >Отсутсвует картинка</CheckBox>
 			</StackPanel>
 			<StackPanel>
 				<ListBox ItemsSource="{Binding MeropriyatiyeList}" Grid.Row="1" Margin="10" Height="490"
-						 BorderThickness="2" Background="#EAD14D" BorderBrush="#FEA9AB"
+						 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"
 						 ScrollViewer.VerticalScrollBarVisibility="Auto"
 						 ScrollViewer.HorizontalScrollBarVisibility="Disabled">
 					<ListBox.ItemTemplate>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "De9152LNSYA=",
+  "dgSpecHash": "Y3PYCEsXC4Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\damir\\source\\repos\\GazizovUP1\\GazizovUP1\\GazizovUP1.csproj",
+  "projectFilePath": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\GazizovUP1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damir\\.nuget\\packages\\avalonia\\11.2.5\\avalonia.11.2.5.nupkg.sha512",
     "C:\\Users\\damir\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

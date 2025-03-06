@@ -28,20 +28,29 @@ build_property.CsWinRTComponent =
 build_property.CsWinRTAotOptimizerEnabled = 
 build_property.CsWinRTAotWarningLevel = 
 build_property.RootNamespace = GazizovUP1
-build_property.ProjectDir = C:\Users\damir\source\repos\GazizovUP1\GazizovUP1\
+build_property.ProjectDir = C:\Users\damir\Desktop\GazizovUP1\GazizovUP1\GazizovUP1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/damir/source/repos/GazizovUP1/GazizovUP1/App.axaml]
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/damir/source/repos/GazizovUP1/GazizovUP1/Views/Avtorizacia.axaml]
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/ViewModels/Info.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/damir/source/repos/GazizovUP1/GazizovUP1/Views/MainWindow.axaml]
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/Avtorizacia.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/damir/source/repos/GazizovUP1/GazizovUP1/Views/Show.axaml]
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/OkmoOrg.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/RegrJuryaxaml.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/Show.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

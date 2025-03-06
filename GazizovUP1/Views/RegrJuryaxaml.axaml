@@ -1,0 +1,87 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:GazizovUP1.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GazizovUP1.RegrJuryaxaml"
+			 x:DataType="vm:RegrJuryViewModel">
+			
+	<StackPanel>
+		<StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+			<TextBlock Text="Регистрация жюри или модератора" FontSize="24" FontWeight="Bold" Margin="0,0,0,10" VerticalAlignment="Center"/>
+		</StackPanel>
+		
+		<StackPanel Orientation="Horizontal">
+			<StackPanel Width="350">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<TextBlock Text="Id Number:" VerticalAlignment="Center"/>
+					<TextBox Text="001" IsReadOnly="True" Width="200" Margin="10" TextAlignment="Center" FontWeight="Bold" Background="#E6E6FA" 
+							 BorderBrush="#9370DB" BorderThickness="2"/>
+				</StackPanel>
+				
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<TextBlock Text="ФИО:" VerticalAlignment="Center"/>
+					<TextBox Width="200" Margin="10" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+				</StackPanel>
+				
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<TextBlock Text="Пол:" VerticalAlignment="Center"/>
+					<ComboBox Width="200" Margin="10" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2">
+						<ComboBoxItem Content="Мужской" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+						<ComboBoxItem Content="Женский" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+					</ComboBox>
+				</StackPanel>
+				
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<TextBlock Text="Роль:" VerticalAlignment="Center"/>
+					<ComboBox Width="200" Margin="10" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2">
+						<ComboBoxItem Content="Жюри" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+						<ComboBoxItem Content="Модератор" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+					</ComboBox>
+				</StackPanel>
+				
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<TextBlock Text="Email:" VerticalAlignment="Center"/>
+					<TextBox Width="200" Margin="10" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+				</StackPanel>
+				
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<TextBlock Text="Телефон:" VerticalAlignment="Center"/>
+					<TextBox Watermark="+7(___)___-__-__" Width="200" Margin="10" FontWeight="Bold" 
+							 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+				</StackPanel>
+
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<TextBlock Text="Мероприятие:"  VerticalAlignment="Center" />
+					<ComboBox Width="200" Margin="10,10,10,10" Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+				</StackPanel>
+			</StackPanel>
+			<StackPanel Width="400">
+				<Image Source="{Binding Image}" Height="220"/>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<TextBlock Text="Пароль:" VerticalAlignment="Center"/>
+					<TextBox Watermark="Пароль" PasswordChar="*" Width="200" Margin="10" 
+							 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"/>
+				</StackPanel>
+				
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<TextBlock Text="Повтор пароля:" VerticalAlignment="Center" />
+					<TextBox Watermark="Пароль" PasswordChar="*" Width="200" Margin="10" 
+							 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2" />
+				</StackPanel>
+				<CheckBox Content="Показать пароль" HorizontalAlignment="Right" Width="200"/>
+				
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="10" Width="200" Margin="10">
+					<Button Content="Сохранить" Margin="0,10,0,10" Padding="55,15,5,0" FontSize="14"
+					Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2" Width="180"
+					Height="50" HorizontalAlignment="Center" Command=""/>
+					
+					<Button Content="Назад" Margin="0,10,0,10" Padding="70,15,5,0" FontSize="14"
+					Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2" Width="180"
+					Height="50" HorizontalAlignment="Center" Command="{Binding ToPage}"/>
+				</StackPanel>
+			</StackPanel>
+		</StackPanel>
+	</StackPanel>
+</UserControl>
