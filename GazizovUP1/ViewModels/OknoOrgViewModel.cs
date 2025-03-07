@@ -71,5 +71,25 @@ namespace GazizovUP1.ViewModels
         {
             MainWindowViewModel.Instance.PageContent = new Show();
         }
+        public void ToPageJury()
+        {
+            MainWindowViewModel.Instance.PageContent = new ShowJury();
+        }
+        public void ToPageModerator()
+        {
+            MainWindowViewModel.Instance.PageContent = new ShowModerator();
+        }
+        public void ToPageUser()
+        {
+            MainWindowViewModel.Instance.PageContent = new ShowUser();
+        }
+        public void ToPageRegr()
+        {
+            MainWindowViewModel.Instance.PageContent = new RegrJuryaxaml();
+        }
+        public void ToPageProfile()
+        {
+            MainWindowViewModel.Instance.PageContent = new Profile();
+        }
     }
 }

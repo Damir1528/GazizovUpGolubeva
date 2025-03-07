@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\views\\show.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\views\\show.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\views\\avtorizacia.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\views\\avtorizacia.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\views\\okmoorg.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\views\\okmoorg.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\views\\avtorizacia.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -19,12 +19,24 @@
       "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\viewmodels\\avtorizaciaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\viewmodels\\regrjuryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\viewmodels\\regrjuryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\models\\meropriyatiye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\models\\meropriyatiye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\views\\avtorizacia.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\views\\avtorizacia.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\views\\regrjuryaxaml.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\views\\regrjuryaxaml.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|c:\\users\\damir\\desktop\\gazizovup1\\gazizovup1\\gazizovup1\\viewmodels\\regrjuryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3E7B01-36A1-436E-AF42-5EC529A0B457}|GazizovUP1\\GazizovUP1.csproj|solutionrelative:gazizovup1\\viewmodels\\regrjuryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,29 +54,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "GazizovUP1\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "GazizovUP1\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T11:28:09.963Z",
+              "DocumentIndex": 1,
+              "Title": "OkmoOrg.axaml",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\OkmoOrg.axaml",
+              "RelativeDocumentMoniker": "GazizovUP1\\Views\\OkmoOrg.axaml",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\OkmoOrg.axaml",
+              "RelativeToolTip": "GazizovUP1\\Views\\OkmoOrg.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-07T00:10:59.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "AvtorizaciaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\ViewModels\\AvtorizaciaViewModel.cs",
+              "RelativeDocumentMoniker": "GazizovUP1\\ViewModels\\AvtorizaciaViewModel.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\ViewModels\\AvtorizaciaViewModel.cs",
+              "RelativeToolTip": "GazizovUP1\\ViewModels\\AvtorizaciaViewModel.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA8wDQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T23:45:59.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "GazizovUP1\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Models\\Event.cs",
+              "RelativeToolTip": "GazizovUP1\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T23:28:49.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Meropriyatiye.cs",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Models\\Meropriyatiye.cs",
+              "RelativeDocumentMoniker": "GazizovUP1\\Models\\Meropriyatiye.cs",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Models\\Meropriyatiye.cs",
+              "RelativeToolTip": "GazizovUP1\\Models\\Meropriyatiye.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T23:28:40.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Show.axaml",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\Show.axaml",
+              "RelativeDocumentMoniker": "GazizovUP1\\Views\\Show.axaml",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\Show.axaml",
+              "RelativeToolTip": "GazizovUP1\\Views\\Show.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T23:28:25.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Avtorizacia.axaml.cs",
               "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\Avtorizacia.axaml.cs",
               "RelativeDocumentMoniker": "GazizovUP1\\Views\\Avtorizacia.axaml.cs",
               "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\Avtorizacia.axaml.cs",
               "RelativeToolTip": "GazizovUP1\\Views\\Avtorizacia.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwEcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T11:23:00.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T23:18:34.469Z"
             },
             {
               "$type": "Document",
@@ -75,34 +133,12 @@
               "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\Avtorizacia.axaml",
               "RelativeToolTip": "GazizovUP1\\Views\\Avtorizacia.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-06T11:18:26.882Z"
+              "WhenOpened": "2025-03-06T23:17:50.561Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegrJuryaxaml.axaml",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\RegrJuryaxaml.axaml",
-              "RelativeDocumentMoniker": "GazizovUP1\\Views\\RegrJuryaxaml.axaml",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\RegrJuryaxaml.axaml",
-              "RelativeToolTip": "GazizovUP1\\Views\\RegrJuryaxaml.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-06T11:18:16.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AvtorizaciaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\ViewModels\\AvtorizaciaViewModel.cs",
-              "RelativeDocumentMoniker": "GazizovUP1\\ViewModels\\AvtorizaciaViewModel.cs",
-              "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\ViewModels\\AvtorizaciaViewModel.cs",
-              "RelativeToolTip": "GazizovUP1\\ViewModels\\AvtorizaciaViewModel.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T11:18:01.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "RegrJuryViewModel.cs",
               "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\ViewModels\\RegrJuryViewModel.cs",
               "RelativeDocumentMoniker": "GazizovUP1\\ViewModels\\RegrJuryViewModel.cs",
@@ -110,7 +146,18 @@
               "RelativeToolTip": "GazizovUP1\\ViewModels\\RegrJuryViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T11:17:56.641Z"
+              "WhenOpened": "2025-03-06T23:17:27.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegrJuryaxaml.axaml",
+              "DocumentMoniker": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\RegrJuryaxaml.axaml",
+              "RelativeDocumentMoniker": "GazizovUP1\\Views\\RegrJuryaxaml.axaml",
+              "ToolTip": "C:\\Users\\damir\\Desktop\\GazizovUP1\\GazizovUP1\\GazizovUP1\\Views\\RegrJuryaxaml.axaml",
+              "RelativeToolTip": "GazizovUP1\\Views\\RegrJuryaxaml.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T23:17:22.22Z"
             }
           ]
         },

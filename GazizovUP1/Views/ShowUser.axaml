@@ -1,0 +1,73 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:GazizovUP1.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GazizovUP1.ShowUser"
+			 x:DataType="vm:ShowUserViewModel">
+
+
+	<Grid Background="#FFFFFF">
+		<StackPanel>
+			<TextBlock Text="Участники" TextAlignment="Center" Margin="12" FontSize="20"/>
+			<StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
+				<!--Поиск-->
+				<StackPanel>
+					<TextBox Watermark="Введите наименование участника" Text="{Binding SearchMeropriyatiye}"
+							 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2" Height="50"
+							 VerticalAlignment="Top" Margin="10,20,0,0"/>
+					
+				</StackPanel>
+				<Button Content="Назад" Margin="20,10,0,10" Padding="15,15,15,15" FontSize="14"
+					Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2" 
+					HorizontalAlignment="Center" Command="{Binding ToPage}"/>
+			</StackPanel>
+			<StackPanel>
+				<ListBox ItemsSource="{Binding UserList}" Grid.Row="1" Margin="10" Height="490"
+						 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"
+						 ScrollViewer.VerticalScrollBarVisibility="Auto"
+						 ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+					<ListBox.ItemTemplate>
+						<DataTemplate>
+
+							<StackPanel Margin="10">
+								<TextBlock>
+									<Run Text="Наименование: " />
+									<Run Text="{Binding UsersFio}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Пол: " />
+									<Run Text="{Binding UsersGender}" />
+								</TextBlock>
+								
+								<TextBlock>
+									<Run Text="Почта: " />
+									<Run Text="{Binding UsersEmail}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="День рождение: " />
+									<Run Text="{Binding UsersBirthday}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Телефон: " />
+									<Run Text="{Binding UsersPhone}" />
+								</TextBlock>
+
+								<TextBlock>
+									<Run Text="Город: " />
+									<Run Text="{Binding UsersCountryNavigation.CountryName}" />
+								</TextBlock>
+								<TextBlock x:Name="ShowMessage" Margin="50,0,0,0"
+										   Padding="50,0,0,0" FontSize="14"/>
+							</StackPanel>
+						</DataTemplate>
+					</ListBox.ItemTemplate>
+				</ListBox>
+			</StackPanel>
+		</StackPanel>
+	</Grid>
+</UserControl>

@@ -38,4 +38,16 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <PackageReference Include="PresentationFramework" Version="4.6.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Profile.axaml.cs">
+      <DependentUpon>Profile.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ShowUser.axaml.cs">
+      <DependentUpon>ShowUser.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ShowModerator.axaml.cs">
+      <DependentUpon>ShowModerator.axaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

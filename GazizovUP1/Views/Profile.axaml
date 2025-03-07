@@ -1,0 +1,42 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="using:GazizovUP1.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GazizovUP1.Profile"
+			 x:DataType="vm:ProfileViewModel">
+			
+	<StackPanel>
+		<StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+			<TextBlock Text="Мой профиль" FontSize="24" FontWeight="Bold" Margin="0,0,0,10" VerticalAlignment="Center"/>
+		</StackPanel>
+		
+		<StackPanel Orientation="Horizontal">
+			<StackPanel Width="350">
+				<StackPanel Width="400">
+					<Image Source="{Binding Image}" Height="220"/>
+				</StackPanel>
+
+				<StackPanel>
+					<ListBox ItemsSource="{Binding UserList}" Grid.Row="1" Margin="10" Height="490"
+							 Background="#E6E6FA" BorderBrush="#9370DB" BorderThickness="2"
+							 ScrollViewer.VerticalScrollBarVisibility="Auto"
+							 ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+						<ListBox.ItemTemplate>
+							<DataTemplate>
+
+								<StackPanel Margin="10">
+									
+
+									<TextBlock x:Name="ShowMessage" Margin="50,0,0,0"
+											   Padding="50,0,0,0" FontSize="14"/>
+								</StackPanel>
+							</DataTemplate>
+						</ListBox.ItemTemplate>
+					</ListBox>
+				</StackPanel>
+			</StackPanel>
+		</StackPanel>
+	</StackPanel>
+</UserControl>

@@ -6,6 +6,7 @@ using MsBox.Avalonia;
 using System.Linq;
 using ReactiveUI;
 using Microsoft.EntityFrameworkCore;
+using Avalonia.Media.Imaging;
 
 namespace GazizovUP1.ViewModels
 {
@@ -25,12 +26,10 @@ namespace GazizovUP1.ViewModels
             set => this.RaiseAndSetIfChanged(ref _totalMeropriyatiye, value);
         }
         //
-
         public List<Meropriyatiye> _meropriyatiyeList;
         public List<Meropriyatiye> MeropriyatiyeList { get => _meropriyatiyeList; set => this.RaiseAndSetIfChanged(ref _meropriyatiyeList, value); }
         public ShowViewModel()
         {
-
             if (myConnection == null)
             {
                 Console.WriteLine("ERROR: Ошибка MyConnection = 0");
@@ -45,37 +44,13 @@ namespace GazizovUP1.ViewModels
             TotalMeropriyatiye = myConnection.Meropriyatiyes.Count();
         }
 
-        public async void Update(int idMaterial)
+
+
+        public void ToPage()
         {
-            //MainWindowViewModel.Instance.PageContent = new PageAdd(idMaterial);
+            MainWindowViewModel.Instance.PageContent = new OkmoOrg();
         }
 
-        public void ToPageAdd()
-        {
-            //MainWindowViewModel.Instance.PageContent = new PageAdd();
-        }
-        public async void Delete(int idMeropriyatiye)
-        {
-            Meropriyatiye delete = MainWindowViewModel.myConnection.Meropriyatiyes.FirstOrDefault(x => x.MeropriyatiyeId == idMeropriyatiye);
-            if (delete != null)
-            {
-                myConnection.Meropriyatiyes.Remove(delete);
-                myConnection.SaveChanges();
-                MainWindowViewModel.Instance.PageContent = new Show();
-            }
-            else
-            {
-                // Обработка случая, когда пользователь не найден. Например, вывод сообщения об ошибке.
-                ButtonResult resultok = await MessageBoxManager.GetMessageBoxStandard("Окно", "Изменения успешно сохранены", ButtonEnum.Ok).ShowAsync();
-            }
-        }
-
-        private void UpdateUsersList()
-        {
-            //_userList = MainWindowViewModel.myConnection.Users
-            //                                    .Include(x => x.Role)
-            //                                    .ToList();
-        }
         //фильтрация
         private string _selectedMaterialsFilter = null;
         string _searchMeropriyatiye;

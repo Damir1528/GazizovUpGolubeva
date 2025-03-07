@@ -49,8 +49,20 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/OkmoOrg.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/Profile.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/RegrJuryaxaml.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/Show.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/ShowJury.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/ShowModerator.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/damir/Desktop/GazizovUP1/GazizovUP1/GazizovUP1/Views/ShowUser.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
